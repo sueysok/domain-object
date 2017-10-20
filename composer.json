@@ -1,0 +1,25 @@
+{
+  "name": "sueysok/domain-object",
+  "description": "领域对象基础",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "sueysok",
+      "email": "yoshiokasue@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "nesbot/carbon": "~1.20",
+    "illuminate/support": "~5",
+    "illuminate/contracts": "~5",
+    "illuminate/database": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sueysok\\DomainObject\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
